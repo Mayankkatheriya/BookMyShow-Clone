@@ -1,5 +1,5 @@
 # BookmyShow_stream
-# Hosted Link: https://mansi2020.github.io/team_bookMyshow/index.html
+# Hosted Link: https://mayankkatheriya.github.io/BookMyShow-Clone/
 <h1>Team BookMyShow -Roles and Responsibility</h1>
 1) Mansi Sorathiya -> HomePage + Header Section<br>
 2) Mayank Gupta -> Stream Section + Login Page<br>
