@@ -341,16 +341,6 @@ main{
     font-weight: 500;
 }
 
-
-.full{
-    color: rgb(153, 153, 153);
-    width: 100%;
-    word-spacing: 5px;
-    background-color: #FFFFFF;
-    padding: 15px;
-    padding-left: 145px;
-}
-
 .cont2{
     max-width: 1230px;
     margin: auto;
@@ -386,11 +376,6 @@ main{
     text-decoration: none;
 }
 
-.full a{
-    color: rgb(153, 153, 153);
-    text-decoration: none;
-    font-size: 14px;
-}
 .p1{
         margin: 4px 0;
         font-size: 12px;
@@ -523,7 +508,102 @@ main{
 
 }
 
+/*--------------page-details---------------*/
+.page-details {
+    width: 100%;
+  }
+  .page-details .row-1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+    overflow: visible;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+  }
+  .page-details .row-1 .content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: start;
+    align-items: start;
+    overflow: visible;
+    color: rgb(153, 153, 153);
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 15px;
+    font-size: 12px;
+  }
+  .page-details .row-1 .content a {
+    flex: 0 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(170, 171, 172);
+  }
+  .page-details .row-1 .content div {
+    flex: 0 0 auto;
+    padding: 0px 5px;
+    cursor: default;
+  }
+  /*----------------row-2----------------*/
 
+.page-details .row-2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+    overflow: visible;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    padding: 0px;
+  }
+  .page-details .row-2 .content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+    overflow: visible;
+    color: rgb(153, 153, 153);
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 15px;
+    padding-bottom: 0;
+    font-size: 12px;
+  }
+  .page-details .row-2 .content h2 {
+    font-size: 16px;
+    text-align: left;
+    margin: 0px 0px 20px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-transform: none;
+    color: rgb(127, 127, 127);
+  }
+  .page-details .row-2 .content p {
+    padding: 0px 0px 15px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+    color: rgb(127, 127, 127);
+  }
+  .page-details .row-2 .content h3 {
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 0px 5px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-transform: none;
+    color: rgb(127, 127, 127);
+  }
+  .page-details .row-2 a {
+    text-decoration: none;
+    color: rgb(220, 53, 88);
+    font-weight: 400;
+  }
 /*--------------------------- media queries ----------- */
 
 @media screen and (min-width:300px) and (max-width:768px)  {
@@ -641,13 +721,6 @@ main{
         width: 80%;
     }
     
-    .full{
-        margin-left: -60px;
-        /* width: 00vw; */
-        width: 106%;
-        margin-top: 10vh;
-        border: 2px solid #F2F2F2;
-    }
 
     .two_buttons {
         width: 100%;
@@ -801,13 +874,6 @@ main{
     .cont2{
         width: 80%;
     }
-    .full{
-        margin-left: -60px;
-        /* width: 00vw; */
-        width: 106%;
-       
-        border: 2px solid #F2F2F2;
-    }
 
 }
 
@@ -862,10 +928,6 @@ main{
         width: 100%;
        padding-inline: 30px;
         /* border: 2px solid black; */
-    }
-    .full{
-        margin-left: -70px;
-        width: 106%;
     }
 
     .container2{
