@@ -363,6 +363,7 @@ sup{
 }
 .buttons{
     display: flex;
+    flex-wrap:wrap;
     flex-direction: row;
     margin-bottom: 12px;
     margin-top:10px;
@@ -513,7 +514,327 @@ sup{
 #icons{
     font-weight:300;
 }
+.upeer-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_res{
+    color:white;
+    width:100%;
+}
+.nva_sub{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    height:60px;
+    padding:10px 10px;
+    background-color: rgb(46,49,71);
+}
+.lower-content h6{
+    font-size:12px;
+    color:#cccccc;
+}
 
+.fa-xmark{
+    transform:scale(1.1);
+}
+
+/* media query for main page */
+@media only screen and (max-width:420px){
+    #footer{
+        display:none;
+    }
+    .nav_1,.nav_2{
+        display:none;
+    }
+    .categories-buzz {
+        display:none;
+    }
+    .second_body {
+        width: 100%;
+    }
+    .left-buzz {
+        height: 100%;
+        width: 100%;
+    }
+    .second_body {
+        padding:0;
+    }
+    .buttons{
+        margin-left:10px;
+    }
+    .left-image{
+        margin:0;
+        height: 100px;
+        width: 100px;
+    }
+    .buzz-feed {
+        width:100%;
+        padding:16px;
+        padding-top:0;
+    }
+    .left-image>img {
+        width:98px;
+    }
+    .upper-right-image, .lower-right-image {
+        width:100%;
+    }
+    .video-image {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px 0px 20px;
+    }
+    #buttons{
+        display:none;
+    }
+    .nva_sub{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        left:0;
+    }
+    .nav_sub2{
+        border-bottom: 1px solid rgb(229, 229, 229);;
+        position:fixed;
+        top:60px;
+        left: 0px;
+        background: rgb(255, 255, 255);
+        z-index:50;
+    }
+
+}
+
+@media only screen and (min-width:421px) and (max-width:768px){
+    #footer{
+        display:none;
+    }
+    .nav_1,.nav_2{
+        display:none;
+    }
+    .categories-buzz {
+        display:none;
+    }
+    .second_body {
+        width: 100%;
+    }
+    .left-buzz {
+        height: 100%;
+        width: 100%;
+    }
+    .second_body {
+        padding:0;
+    }
+    .buttons{
+        margin-left:10px;
+    }
+    .left-image{
+        margin:0;
+        height: 100px;
+        width: 100px;
+    }
+    .buzz-feed {
+        width:100%;
+        padding:16px;
+        padding-top:0;
+    }
+    .left-image>img {
+        width:98px;
+    }
+    .upper-right-image, .lower-right-image {
+        width:100%;
+    }
+    .video-image {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px 0px 20px;
+    }
+    #buttons{
+        display:none;
+    }
+    .right-image {
+        width:100%;
+    }
+    .nva_sub{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        left:0;
+    }
+    .nav_sub2{
+        width:100%;
+        border-bottom: 1px solid rgb(229, 229, 229);;
+        position:fixed;
+        top:60px;
+        left: 0px;
+        background: rgb(255, 255, 255);
+        z-index:50;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    #footer{
+        display:none;
+    }
+    .nav_1,.nav_2{
+        display:none;
+    }
+    .categories-buzz {
+        display:none;
+    }
+    .second_body {
+        width: 100%;
+    }
+    .left-buzz {
+        height: 100%;
+        width: 100%;
+    }
+    .second_body {
+        padding:0;
+    }
+    .buttons{
+        margin-left:10px;
+    }
+    .left-image{
+        margin:0;
+        height: 100px;
+        width: 100px;
+    }
+    .buzz-feed {
+        width:100%;
+        padding:16px;
+        padding-top:0;
+    }
+    .left-image>img {
+        width:98px;
+    }
+    .upper-right-image, .lower-right-image {
+        width:100%;
+    }
+    .video-image {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px 0px 20px;
+    }
+    #buttons{
+        display:none;
+    }
+    .right-image {
+        width:100%;
+    }
+    .nva_sub{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        left:0;
+    }
+    .nav_sub2{
+        width:100%;
+        border-bottom: 1px solid rgb(229, 229, 229);;
+        position:fixed;
+        top:60px;
+        left: 0px;
+        background: rgb(255, 255, 255);
+        z-index:50;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    #footer{
+        display:none;
+    }
+    .nav_1,.nav_2{
+        display:none;
+    }
+    .categories-buzz {
+        display:none;
+    }
+    .second_body {
+        width: 100%;
+    }
+    .left-buzz {
+        height: 100%;
+        width: 100%;
+    }
+    .second_body {
+        padding:0;
+    }
+    .buttons{
+        margin-left:10px;
+    }
+    .left-image{
+        margin:0;
+        height: 100px;
+        width: 100px;
+    }
+    .buzz-feed {
+        width:100%;
+        padding:16px;
+        padding-top:0;
+    }
+    .left-image>img {
+        width:98px;
+    }
+    .upper-right-image, .lower-right-image {
+        width:100%;
+    }
+    .video-image {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px 0px 20px;
+    }
+    #buttons{
+        display:none;
+    }
+    .right-image {
+        width:100%;
+    }
+    .nva_sub{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        left:0;
+        padding:0 78px;
+    }
+    .nav_sub2{
+        width:100%;
+        border-bottom: 1px solid rgb(229, 229, 229);;
+        position:fixed;
+        top:60px;
+        left: 0px;
+        background: rgb(255, 255, 255);
+        z-index:50;
+    }
+    .buzzfeed_left {
+        margin: 0px auto 78px;
+        max-width:768px;
+    }
+    .buttons{
+        display:flex;
+        align-items: center;
+        margin: 20px auto 20px;
+        max-width:768px;
+    }
+    
+}
+
+@media only screen and (min-width:1201px){
+    .navbar_res{
+        display:none;
+    }
+    
+    .buttons{
+        margin-left:10px;
+    }
+}
 /*================================================= FOOTER====================================== */
 
 
@@ -1074,17 +1395,6 @@ footer a:hover {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
