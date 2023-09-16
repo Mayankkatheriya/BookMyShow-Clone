@@ -535,9 +535,7 @@ sup{
     font-size:12px;
     color:#cccccc;
 }
-nav{
-    height:140px;
-}
+
 
 .fa-xmark{
     transform:scale(1.1);
@@ -605,6 +603,9 @@ nav{
         left: 0px;
         background: rgb(255, 255, 255);
         z-index:50;
+    }
+    nav{
+        height:140px;
     }
 
 }
