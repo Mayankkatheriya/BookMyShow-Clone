@@ -381,6 +381,7 @@ sup{
     padding : 4px 10px;
     font-size: 12px;
     color:rgb(102, 102, 102);
+    transition: 0.5s;
 }
 .feed-buttons:hover{
     cursor: pointer;
