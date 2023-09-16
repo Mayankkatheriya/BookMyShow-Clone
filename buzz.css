@@ -384,6 +384,10 @@ sup{
 }
 .feed-buttons:hover{
     cursor: pointer;
+    background-color: rgb(235,78,98);
+    border:none;
+    color: white;
+    box-shadow: 0 0 10px 0 grey;
 }
 .feed-buttons:first-child{
     background-color: rgb(235,78,98);
