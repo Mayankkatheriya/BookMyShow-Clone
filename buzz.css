@@ -289,7 +289,7 @@ sup{
  
 }
 .second_body{
-    width:55%;
+    width: min-content;
     display: flex;
     flex-direction: row;
     background-color: white; 
@@ -528,7 +528,7 @@ sup{
     flex-direction: column;
     justify-content:center;
     height:60px;
-    padding:10px 10px;
+    padding:16px;
     background-color: rgb(46,49,71);
 }
 .lower-content h6{
@@ -681,7 +681,7 @@ sup{
     }
 }
 
-@media only screen and (min-width:769px) and (max-width:1024px){
+@media only screen and (min-width:769px) and (max-width:1023px){
     #footer{
         display:none;
     }
@@ -753,7 +753,7 @@ sup{
     }
 }
 
-@media only screen and (min-width:1025px) and (max-width:1200px){
+@media only screen and (min-width:1024px) and (max-width:1200px){
     #footer{
         display:none;
     }
@@ -842,13 +842,7 @@ sup{
     .buttons{
         margin-left:10px;
     }
-    .second_body {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        background-color: white;
-        padding: 0 2rem;
-    }
+    
     .nav_width {
         width: 92vw;
     }
