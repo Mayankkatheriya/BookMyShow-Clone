@@ -535,6 +535,9 @@ sup{
     font-size:12px;
     color:#cccccc;
 }
+nav{
+    height:140px;
+}
 
 .fa-xmark{
     transform:scale(1.1);
@@ -597,7 +600,6 @@ sup{
         left:0;
     }
     .nav_sub2{
-        border-bottom: 1px solid rgb(229, 229, 229);;
         position:fixed;
         top:60px;
         left: 0px;
@@ -665,9 +667,11 @@ sup{
         top: 0;
         left:0;
     }
+    nav{
+        height:110px;
+    }
     .nav_sub2{
         width:100%;
-        border-bottom: 1px solid rgb(229, 229, 229);;
         position:fixed;
         top:60px;
         left: 0px;
@@ -726,6 +730,9 @@ sup{
     }
     .right-image {
         width:100%;
+    }
+    nav{
+        height:100px;
     }
     .nva_sub{
         position: fixed;
