@@ -834,13 +834,29 @@ sup{
     
 }
 
-@media only screen and (min-width:1201px){
+@media only screen and (min-width:1201px) and (max-width:1400px){
     .navbar_res{
         display:none;
     }
     
     .buttons{
         margin-left:10px;
+    }
+    .second_body {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 0 2rem;
+    }
+    .nav_width {
+        width: 92vw;
+    }
+}
+
+@media only screen and (min-width:1401px){
+    .navbar_res{
+        display:none;
     }
 }
 /*================================================= FOOTER====================================== */
